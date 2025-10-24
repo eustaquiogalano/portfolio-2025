@@ -1,3 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.cover {
+  height: 100%;
+  width: 100%;
   background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
