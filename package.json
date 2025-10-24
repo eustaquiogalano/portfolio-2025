@@ -23,9 +23,9 @@
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.0"
   },
-  "name": "webpack-template-setup (change this to projects's name)",
+  "name": "Q's Portfolio",
   "version": "1.0.0",
-  "description": "This is a template repository for setting up webpack configuration",
+  "description": "Current portfolio Q was working on right now",
   "main": "./src/js/index.js",
   "dependencies": {
     "accepts": "^1.3.8",
