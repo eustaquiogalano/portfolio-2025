@@ -22,3 +22,25 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.cover > button {
+  height: 10%;
+  width: 40%;
+}
+
+.cover-exit {
+  animation: exit-center 1s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes exit-center {
+  0% {
+    transform: scale(1);
+    display: flex;
+  }
+
+  100% {
+    transform: scale(0.01);
+    display: none;
+  }
+}
