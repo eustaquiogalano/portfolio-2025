@@ -29,7 +29,7 @@ body {
 }
 
 .cover-exit {
-  animation: exit-center 1s ease-out;
+  animation: exit-center 0.5s ease-out;
   animation-fill-mode: forwards;
 }
 
