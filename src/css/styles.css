@@ -1,7 +1,15 @@
+:root {
+  --color-sand-biege: #d0c8b6;
+  --color-dark-grey: #1a1a1a;
+  --color-off-white: #f6f1eb;
+  --color-olive-drab: #545247;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: var(--color-dark-grey);
 }
 
 html {
@@ -13,10 +21,11 @@ body {
   height: 100vh;
   width: 100vw;
   position: relative;
+  background-color: var(--color-off-white);
 }
 
 nav {
-  background-color: orange;
+  background-color: var(--color-off-white);
   position: sticky;
   top: 0;
   left: 0;
@@ -33,7 +42,7 @@ nav {
 .cover {
   height: 100%;
   width: 100%;
-  background-color: rgb(44, 44, 44);
+  background-color: var(--color-olive-drab);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,23 +75,23 @@ nav {
 }
 
 header {
-  background-color: red;
+  background-color: var(--color-off-white);
   width: 100%;
-  height: 10%;
+  height: 7%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 main {
-  background-color: green;
+  background-color: var(--color-off-white);
   width: 100%;
   height: 500px;
   position: relative;
 }
 
 footer {
-  background-color: blue;
+  background-color: var(--color-off-white);
   width: 100%;
   height: 1000px;
 }
