@@ -12,6 +12,22 @@ html {
 body {
   height: 100vh;
   width: 100vw;
+  position: relative;
+}
+
+nav {
+  background-color: orange;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  opacity: 50%;
+  z-index: 1;
 }
 
 .cover {
@@ -21,6 +37,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 .cover > button {
@@ -49,7 +69,6 @@ header {
   background-color: red;
   width: 100%;
   height: 10%;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,11 +77,12 @@ header {
 main {
   background-color: green;
   width: 100%;
-  height: 80%;
+  height: 500px;
+  position: relative;
 }
 
 footer {
   background-color: blue;
   width: 100%;
-  height: 10%;
+  height: 1000px;
 }
