@@ -110,11 +110,18 @@ main > section {
 #projects {
   width: 100%;
   display: flex;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow: hidden;
+}
+
+#projects > div {
+  display: flex;
+  flex-direction: row;
   overflow: auto;
 }
 
-#projects > section {
+#projects section {
   width: 100%;
   flex-shrink: 0;
 }
