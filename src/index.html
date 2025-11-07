@@ -3,82 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/e37a65dae7.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Q</title>
   </head>
   <body>
-    <div class="cover">
-      <button>You won an iPhone 20</button>
-    </div>
     <header>
-      <h1>Q</h1>
+      <div id="page-title-container">
+        <h1 id="page-title">q.dev</h1>
+      </div>
+      <nav id="navigation">
+        <ul>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contacts">CONTACTS</a></li>
+          <li id="chat">CHAT</li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-      <button>Home</button>
-      <button>Projects</button>
-      <button>Contact</button>
-    </nav>
     <main>
+      <div id="chat-box" class="toggle-visibility">
+        <div id="top-chat-box">
+          <p>I'll respond ASAP</p>
+          <button>X</button>
+        </div>
+        <div id="middle-chat-box"></div>
+        <div id="bottom-chat-box">
+          <button id="send">Send</button>
+          <input type="text" />
+        </div>
+      </div>
+
       <section id="home">
-        <p>
-          Front-End Web Developer passionate about building clean, responsive,
-          and interactive websites using React, Tailwind CSS, and Javascript.
-        </p>
+        <div id="q-description">
+          <h2>Front-End Web Developer</h2>
+          <br />
+          <p>Entry-level Front-end Web Developer, based from Philippines.</p>
+          <br />
+          <div id="socials">
+            <img src="./assets/icons/linkedin_logo.svg" alt="li-logo" />
+            <img src="./assets/icons/fb_logo.svg" alt=" fb-logo" />
+            <img src="./assets/icons/gh_logo_dark.svg" alt="github-logo" />
+            <img src="./assets/icons/email_logo.svg" alt="email logo" />
+          </div>
+          <br />
+          <br />
+          <br />
+          <div id="skills">
+            <p>Tech Stack</p>
+            <div id="tech-stack">
+              <img src="./assets/icons/html_logo.svg" alt="html-logo" />
+              <img src="./assets/icons/css_logo.svg" alt="css-logo" />
+              <img src="./assets/icons/js_logo.svg" alt="js-logo" />
+            </div>
+          </div>
+        </div>
+        <div id="q-image">
+          <img
+            src="./assets/images/profile_pic.jpg"
+            alt="Developer-half-body-pic"
+          />
+        </div>
       </section>
 
       <section id="projects">
         <h2>Projects</h2>
-        <div>
-          <section id="musika-section">
-            <div class="image-container">
-              <img
+        <div id="projects-list-container">
+          <div id="music-player">
+            <a href="./html/projects/Music Player/index.html" target="_blank"
+              ><img
                 src="./assets/images/music_player.png"
-                alt="Musika webpage snapshot"
-              />
-            </div>
-            <h3>Musika</h3>
-            <p>Online music player, Spotify imitation</p>
-          </section>
-          <section id="shap-section">
-            <div class="image-container">
-              <img
-                src="./assets/images/shopping_website.png"
-                alt="Shopping website snapshot"
-              />
-            </div>
-            <h3>SHAP</h3>
-            <p>Online shopping website, Shoppee imitation</p>
-          </section>
-          <section id="landing-page-section">
-            <div class="image-container">
-              <img
+                alt="music player preview"
+            /></a>
+          </div>
+          <div id="d-apparel">
+            <a
+              href="./html/projects/D` Apparel HTML & CSS files/index.html"
+              target="_blank"
+              ><img src="./assets/images/dapparel.png" alt="D apparel preview"
+            /></a>
+          </div>
+          <div id="landing-page">
+            <a
+              href="./html/projects/Product Landing Page/index.html"
+              target="_blank"
+              ><img
                 src="./assets/images/landing_page.png"
-                alt="Landing page snapshot"
-              />
-            </div>
-            <h3>Tawas Landing Page</h3>
-            <p>Online Business Landing Page</p>
-          </section>
-        </div>
-      </section>
-
-      <section id="contact-me">
-        <h2>Contacts</h2>
-        <div>
-          <section id="facebook-contact">
-            <img src="./assets/icons/facebook.svg" alt="" />
-          </section>
-          <section id="linkedIn-contact">
-            <img src="./assets/icons/linkedin.svg" alt="" />
-          </section>
-          <section id="github-contact">
-            <img src="./assets/icons/github.svg" alt="" />
-          </section>
-          <section id="email-contact">
-            <img src="./assets/icons/email.svg" alt="" />
-          </section>
+                alt="landing page preview"
+            /></a>
+          </div>
+          <div id="shop">
+            <a href="./html/projects/Shopping Website/" target="_blank"
+              ><img
+                src="./assets/images/shopping_website.png"
+                alt="shopping site preview"
+            /></a>
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="contacts">
+        <img src="./assets/icons/email_logo.svg" alt="email logo" />
+        <img src="./assets/icons/fb_logo.svg" alt="facebook logo" />
+        <img src="./assets/icons/gh_logo_dark.svg" alt="github logo" />
+        <img src="./assets/icons/linkedin_logo.svg" alt="linkedIn logo" />
+      </div>
+      <div id="copyright">
+        <p>&copy; 2024 Eustaquio Galano II</p>
+      </div>
+    </footer>
   </body>
 </html>
