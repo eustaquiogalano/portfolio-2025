@@ -207,7 +207,7 @@ main > section {
   gap: 1rem;
   padding: 0.5rem;
   flex-direction: row;
-  animation: slide 40s linear infinite alternate;
+  animation: slide 20s linear infinite alternate;
 }
 
 @keyframes slide {
