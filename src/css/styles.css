@@ -207,7 +207,25 @@ main > section {
   gap: 1rem;
   padding: 0.5rem;
   flex-direction: row;
-  overflow-x: scroll;
+  animation: slide 40s linear infinite alternate;
+}
+
+@keyframes slide {
+  25% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(-100%);
+  }
+
+  75% {
+    transform: translateX(-200%);
+  }
+
+  100% {
+    transform: translateX(-300%);
+  }
 }
 
 #projects-list-container > div {
